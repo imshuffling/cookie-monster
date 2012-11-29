@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Cookie monster</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        <script src="js/cookie-monster.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <section>
+                    <header>
+                        <h1>Cookie monster</h1>
+                        <p>Project at work where a quick solution was needed to conform with the new cookies law that was coming into place, we were using Drupal at the time and we looked at a couple of contrib modules that were in development.</p>
+                    </header>
+                    <section>
+                    	<p>In the end, all that was needed was a page notifying users that cookies were present.</p>
+                    </section>	
+                    <footer>
+                        <h2>Built with jQuery and jQuery.cookie plugin</h2>
+                        <p>Check out the source code. pretty straight forward</p>
+                        <pre>// Set cookie-monster for browser session.</pre>
+ 	                      <pre>jQuery.cookie( 'cookie-monster', '1',  { path: '/' });</pre>
+ 	                      <p>Click OK and the box will slide up setting the cookie.</p>
+                    </footer>
+                </section>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+        
+               <div class="footer-container">
+            <footer class="wrapper">
+                <p>Built by <a href="http://davidrich.es">davidrich.es</a></p>
+            </footer>
+        </div>
+        
+    </body>
+</html>
