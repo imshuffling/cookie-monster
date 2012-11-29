@@ -5,3 +5,4 @@
 <pre>// Set cookie-monster for browser session.
 jQuery.cookie( 'cookie-monster', '1',  { path: '/' });</pre>
 <p>Click OK and the box will slide up setting the cookie.</p>
+<p>View the demo at <a href="http://thirstythursdays.co.uk/cookie-monster/">thirstythursdays.co.uk/cookie-monster/</a>
